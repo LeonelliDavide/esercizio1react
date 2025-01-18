@@ -1,4 +1,27 @@
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+
+const page = () => {
+  return (
+    <div>
+      <h1 className = "text-6xl"> App </h1>
+    </div>
+  )
+}
+
+const App = () => {
+  return (
+    <div>
+      <h1 className = "text-6xl"> App </h1>
+      <link href='/contact'>Contatti</link>
+    </div>
+  )
+}
+
+export default page
+
+
+/*import Image from "next/image";
 
 export default function Home() {
   return (
@@ -99,3 +122,4 @@ export default function Home() {
     </div>
   );
 }
+*/
