@@ -1,24 +1,21 @@
 import React from 'react'
 import Link from 'next/link'
 
-const page = () => {
-  return (
-    <div>
-      <h1 className = "text-6xl"> App </h1>
-    </div>
-  )
-}
-
 const App = () => {
   return (
     <div>
       <h1 className = "text-6xl"> App </h1>
-      <link href='/contact'>Contatti</link>
+      <Link href='/contact'>Contatti</Link> <br/>
+      <Link href='/contact'>Counter</Link> <br/>
+      <Link href='/contact'>Prisma</Link> <br/>
+      <Link href='/contact'>Query</Link> <br/>
+      <Link href='/contact'>TodoList</Link>
+
     </div>
   )
 }
 
-export default page
+export default App
 
 
 /*import Image from "next/image";

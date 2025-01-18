@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Contact = () => {
+const TodoList = () => {
   return (
     <div>
-      Contact
+      TodoList
     </div>
   )
 }
 
-export default Contact
+export default TodoList
